@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+  font-family: "Montserrat";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+}
+
+/* Tête de page */
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+}
+
+section.top-page {
+  background: url("/images/Veigar_bg_1_flou.png");
+  background-size: cover;
+  height: 110vh;
+  padding: 25px;
+}
+
+/* Page de bienvenue (landing-page) */
+
+.landing-page {
+  position: relative;
+  padding: 20px 50px;
+}
+
+.big-title {
+  color: white;
+  font-size: 80px;
+  font-family: "Abril FatFace";
+  font-weight: 100;
+  width: 60%;
+}
+
+.scroll-down {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Menu de navigation */
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 400px;
+  margin-left: 30px;
+}
+
+nav.nav li {
+  color: white;
+}
+
+/* Skins */
+
+.section-title {
+  font-size: 50px;
+  font-family: "Abril FatFace", cursive;
+  font-weight: 100;
+  position: relative;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  background-color: #5633a281;
+  width: 50px;
+  height: 7px;
+  bottom: 0;
+}
+
+.all-skins {
+  margin: 100px;
+}
+
+.skins {
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skin-box {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.no-grid {
+  min-width: 800px;
+  height: 500px;
+  flex: 1;
+}
+
+.skin0 {
+  background-image: url(/images/skins/Veigar_0.jpg);
+}
+
+.skin1 {
+  background-image: url(/images/skins/Veigar_1.jpg);
+}
+
+.skin2 {
+  background-image: url(/images/skins/Veigar_2.jpg);
+}
+
+.skin3 {
+  background-image: url(/images/skins/Veigar_3.jpg);
+}
+
+.skin4 {
+  background-image: url(/images/skins/Veigar_4.jpg);
+}
+
+.skin5 {
+  background-image: url(/images/skins/Veigar_5.jpg);
+}
+
+.skin6 {
+  background-image: url(/images/skins/Veigar_6.jpg);
+}
+
+.skin7 {
+  background-image: url(/images/skins/Veigar_7.jpg);
+}
+
+.skin8 {
+  background-image: url(/images/skins/Veigar_8.jpg);
+}
+
+.skin9 {
+  background-image: url(/images/skins/Veigar_9.jpg);
+}
+.skin10 {
+  background-image: url(/images/skins/Veigar_10.jpg);
+}
+
+.skin11 {
+  background-image: url(/images/skins/Veigar_11.jpg);
+}
+
+.skin12 {
+  background-image: url(/images/skins/Veigar_12.jpg);
+}
+
+.skin-details {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #ffffffdf;
+  padding: 5px 20px;
+}
+
+.skin-name {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 3px;
+}
+
+/* Chromas */
+
+.all-chromas {
+  margin: 100px;
+}
+
+.chroma-grid {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 300px);
+}
+
+.chroma-grid1 {
+  background-image: url(/images/skins/chromas/Veigar_FinalBoss_Mythic.jpg);
+}
+
+.chroma-grid2 {
+  background-image: url(/images/skins/chromas/Veigar_OmegaSquad__Catseye_.jpg);
+}
+
+.chroma-grid3 {
+  background-image: url(/images/skins/chromas/Veigar_OmegaSquad__Sapphire_.jpg);
+}
+
+.chroma-grid4 {
+  background-image: url(/images/skins/chromas/Veigar_OmegaSquad__Tanzanite_.jpg);
+}
+
+.chroma-grid5 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Amethyst.jpg);
+}
+
+.chroma-grid6 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Catseye.jpg);
+}
+
+.chroma-grid7 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Emerald.jpg);
+}
+
+.chroma-grid8 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Obsidian.jpg);
+}
+
+.chroma-grid9 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Pearl.jpg);
+}
+
+.chroma-grid10 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Rainbow.jpg);
+}
+
+.chroma-grid11 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Rose_Quartz.jpg);
+}
+
+.chroma-grid12 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Ruby.jpg);
+}
+
+.chroma-grid13 {
+  background-image: url(/images/skins/chromas/Veigar_Elderwood_Turquoise.jpg);
+}
+
+.chroma-grid14 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay__Pearl_.jpg);
+}
+
+.chroma-grid15 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay__Rose_Quartz_.jpg);
+}
+
+.chroma-grid16 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay__Ruby_.jpg);
+}
+
+.chroma-grid17 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay__Tanzanite_.jpg);
+}
+
+.chroma-grid18 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay_Aquamarine.jpg);
+}
+
+.chroma-grid19 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay_Citrine.jpg);
+}
+
+.chroma-grid20 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay_Emerald.jpg);
+}
+
+.chroma-grid21 {
+  background-image: url(/images/skins/chromas/Veigar_FuryhornCosplay_Obsidian.jpg);
+}
+
+.chroma-grid22 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Catseye.jpg);
+}
+
+.chroma-grid23 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Citrine.jpg);
+}
+
+.chroma-grid24 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Emerald.jpg);
+}
+
+.chroma-grid25 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Rainbow.jpg);
+}
+
+.chroma-grid26 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Ruby.jpg);
+}
+
+.chroma-grid27 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Sapphire.jpg);
+}
+
+.chroma-grid28 {
+  background-image: url(/images/skins/chromas/Veigar_Astronaut_Tanzanite.jpg);
+}
+
+/* Pied de page */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  font-weight: 600;
+}
